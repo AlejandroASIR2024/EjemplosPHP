@@ -7,4 +7,5 @@ if(isset($var1)){
     print("La variable var1 está inicializada y no es null. Su valor es: ".$var1);
 }else{
     print("La variable var1 no está inicializada");
+
 }
