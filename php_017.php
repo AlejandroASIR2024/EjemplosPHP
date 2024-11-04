@@ -14,14 +14,14 @@ echo "AND lógico (&&): <br>";
 echo ($a && $b) ."<br>";
 echo ($a && $c). "<br>";
 
-if (&a && $b){
+if ($a && $b){
     echo "Es true";
 }else{
     echo "Es false";
 }
 
 //Con operador ternario
-$resultado= ($a && $b) ? "Es true" : "Es false"
+$resultado= ($a && $b) ? "Es true" : "Es false";
 echo $resultado
 //Con otro operador ternario
 ($a && $b) ? "echo Es True" : "echo Es false";
