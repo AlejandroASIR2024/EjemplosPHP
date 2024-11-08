@@ -1,0 +1,1 @@
+<!-- Haz una tabla con las 5 primeras potencias de loos 10 primeros números -->

@@ -4,7 +4,10 @@
 
 $salir=false;
 while (!$salir) {
-    $num = rand(1,500);
+    $num = rand(1,500); //random
     echo "$num <br>";
-    $salir = ($num%7 == 0); //El centinela vale verdadero si es múltiplo de 7.
+    $salir = ($num % 7 == 0); //El centinela vale verdadero si es múltiplo de 7.
+    if ($num % 7 == 0){
+        $salir == false;
+    }
 }
