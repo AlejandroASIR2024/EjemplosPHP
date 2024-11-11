@@ -21,7 +21,7 @@ echo "<br>";
 var_dump($ciudades);
 
 //Imprimir el array con un bucle foreach
-//Recorrer el vector $ciudades con una variable llama $nombre que incrementará su posición en cada iteración.
+//Para cada elemento del vector ciu dades, almacena su valor enla variable $nombre y en cada iteración incrementa la posición del puntero.
 foreach ($ciudades as $nombre) {
     echo $nombre. "<br>";
 }
