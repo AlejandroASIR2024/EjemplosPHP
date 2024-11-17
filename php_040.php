@@ -1,6 +1,6 @@
 <!-- ARRAYS ASOCIATIVOS: El índice (key) de cada elemento es una clave personalizada que no tiene que ser numérica -->
  <?php
- //ARRAY INDEXADO. Susclaves son 1 2 3 4 5 6
+ //ARRAY INDEXADO. Sus claves son 1 2 3 4 5 6
  $semana = ["lunes", "martes", "miércoles", "jueves", "viernes"];
 
  foreach ($semana as $key => $value) {
